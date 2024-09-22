@@ -31,7 +31,7 @@ article {
     color: rgb(0, 0, 0);
 }
 
-.pergunta {
+.perguntas {
     text-align: center;
 }
 
@@ -79,4 +79,18 @@ footer {
     cursor: pointer;
     background-color: #597e97;
     transition: 0.5s;
+}
+
+.correta {
+    border: 2px solid green;
+}
+
+.errada {
+    border: 2px solid red;
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
 }
